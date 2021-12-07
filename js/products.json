@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+        "name": "Intel Core I5 10400",
+        "description": "Frecuencia base: 2,90 GHz <br> Número de núcleos: 6 <br> Número de subprocesos: 12", 
+        "price": 170,
+        "img": "image/procesador1.webp"
+        },
+        {
+        "name": "Gigabyte RTX 3070", 
+        "description": "Tamaño de la memoria: 8GB <br> Tipo de memoria: GDDR6 <br> Resolución máxima: 7680 x 4320",
+        "price": 800, 
+        "img": "image/gpu1.webp"
+        }
+    ]
+}
