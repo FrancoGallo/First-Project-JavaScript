@@ -17,8 +17,13 @@
             <span id="btnOpenClosed" class="icon-menu"></span>
         </div>
 
-        <!-- Btn modal del carrito -->
-        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="icon-cart"></span></button>
+        <div class="btns">
+            <!-- Btn modal del carrito -->
+            <button type="button" class="btn btn-danger me-5" data-bs-toggle="modal" data-bs-target="#exampleModal"><span class="icon-cart"></span></button>
+
+            <!-- Btn modo oscuro -->
+            <button id="btnDarkMode" type="button" class="btn btn-dark">Dark Mode</button>
+        </div>
     </header>
 
     <aside id="menuAside" class="menu-aside-style">
@@ -111,6 +116,8 @@
     <script src="js/products.js"></script>
     <!--Productos al carrito-->
     <script src="js/cart.js"></script>
+    <!-- Modo oscuro -->
+    <script src="js/darkMode.js"></script>
     <!--Sweet Alert-->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
